@@ -1,9 +1,11 @@
 # reactant-jax-poc
 Proof-of-concept showing bidirectional interoperability between JAX (Python) and Julia via Reactant.jl, with automatic differentiation in both directions.
 ## What this demonstrates
+```bash
 Julia function → Reactant.jl → StableHLO → hlo_call → jax.grad
 JAX function → PythonCall → StableHLO → Reactant.@jit → Enzyme.gradient
 JAX MLP → @compile train_step → Enzyme.gradient → Julia training loop
+```
 All three verified working with correct gradients. See results below.
 ## Environment
 | Component | Version |
