@@ -228,3 +228,4 @@ Manifest.toml
 .CondaPkg/
 
 # Generated POC artifacts
+miniconda.sh
