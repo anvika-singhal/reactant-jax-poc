@@ -1,0 +1,6 @@
+[deps]
+Enzyme = "7da242da-08ed-463a-9acd-ee780be4f1d9"
+KomaMRI = "6a340f8b-2cdf-4c04-99be-4953d9b66d0a"
+NPZ = "15e1cf62-19b3-5cfa-8e77-841668bca605"
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
+Reactant = "3c362404-f566-11ee-1572-e11a4b42c853"
